@@ -956,7 +956,7 @@ header::after {
     padding: 20px 0;
   }
   .nav-links.active {
-    width: 20vw;
+    width: 23vw;
     opacity: 1;
     animation: slideFadeInRight 0.4s ease forwards;
   }
@@ -1067,7 +1067,7 @@ header::after {
     bottom: 0;
   }
   .nav-links.active {
-    width: 27vw;
+    width: 35vw;
     opacity: 1;
     animation: slideFadeInRight 0.4s ease forwards;
   }
