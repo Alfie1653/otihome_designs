@@ -1068,7 +1068,7 @@ header::after {
     bottom: 0;
   }
   .nav-links.active {
-    width: 80vw;
+    width: 50vw;
     opacity: 1;
     animation: slideFadeInRight 0.4s ease forwards;
   }
