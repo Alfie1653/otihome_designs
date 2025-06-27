@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Otihome Designs - Professional architectural and design services for residential and commercial projects.">
+  <meta name="author" content="Otihome Designs">
+  <meta name="keywords" content="architecture, design, 3D modeling, drafting, planning, interior, construction">
+  <meta property="og:title" content="Otihome Designs">
+  <meta property="og:description" content="Bold Ideas in Every Blueprint - Explore our services and featured projects.">
+  <meta property="og:image" content="IMG/Logo.png">
+  <meta property="og:type" content="website">
+  <title>Otihome Designs</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" />
+  <link rel="icon" href="IMG/Logo.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav aria-label="Main Navigation">
+    <button class="menu-toggle" aria-label="Toggle Navigation">
+      <img src="IMG/hamburger.png" alt="Menu Icon" class="icon-hamburger" loading="lazy">
+      <img src="IMG/Close.png" alt="Close Menu" class="icon-close" style="display: none;" loading="lazy">
+    </button>
+    <div class="logo-container">
+      <div class="logo">
+        <a href=""><img src="IMG/Logo.png" alt="Otihome Logo" loading="lazy"></a>
+      </div> 
+      <div class="menu-toggle" onclick="toggleMenu()"></div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+<!-------------------------------------Header Section------------------------------------------>
+  <header>
+    <div class="carousel-container">
+      <div class="carousel-slide active" style="background-image: url('IMG/header-background.jpeg')" loading="lazy"></div>
+      <div class="carousel-slide" style="background-image: url('IMG/C2.jpg')" loading="lazy"></div>
+      <div class="carousel-slide" style="background-image: url('IMG/C3.jpg')" loading="lazy"></div>
+      <div class="carousel-slide" style="background-image: url('IMG/C4.jpg')" loading="lazy"></div>
+      <div class="carousel-slide" style="background-image: url('IMG/C5.jpg')" loading="lazy"></div>
+      <div class="carousel-slide" style="background-image: url('IMG/C6.jpg')" loading="lazy"></div>
+      <div class="carousel-slide" style="background-image: url('IMG/C7.jpg')" loading="lazy"></div>
+      <div class="carousel-slide" style="background-image: url('IMG/C8.jpg')" loading="lazy"></div>
+      <div class="carousel-slide" style="background-image: url('IMG/C9.jpg')" loading="lazy"></div>
+      <div class="carousel-slide" style="background-image: url('IMG/C10.jpg')" loading="lazy"></div>
+    </div>
+
+    <div class="hero-content">
+      <h1 id="hero-title">Otihome Designs</h1>
+      <p id="hero-subtitle">Bold Ideas in Every Blueprint</p>
+    </div>
+      
+    <div>
+      <a href="#" class="see-more-btn" style="margin-top: 50px;">Explore Our Work</a>
+    </div>
+  </header>
+
+
+<!--------------------------------------Our Services--------------------------------------->
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <p>We provide architectural design, 3D modeling, rendering, and drafting services for residential and commercial projects.</p>
+
+    <div class="services-grid">
+      <div class="service-card" style="background-image: url('IMG/Architecture Design.jpg');" loading="lazy">
+        <div class="overlay">Architectural Design</div>
+      </div>
+
+      <div class="service-card" style="background-image: url('IMG/3D Model.jpg');" loading="lazy">
+        <div class="overlay">3D Modeling</div>
+      </div>
+
+      <div class="service-card" style="background-image: url('IMG/Drafting.jpg');" loading="lazy">
+        <div class="overlay">Technical Drafting</div>
+      </div>
+      
+      <div class="service-card" style="background-image: url('IMG/Site Planning.png');" loading="lazy">
+        <div class="overlay">Site Planning</div>
+      </div>
+    </div>
+  </section>
+
+
+<!-------------------------------------Portfolio------------------------------------------>
+  <section class="featured section" id="projects">
+    <h2>Featured Projects</h2>
+    <p>A selection of our recent work showcasing creativity, precision, and technical excellence.</p>
+
+    <div class="projects-grid">
+      <div class="project-card" style="background-image: url('IMG/Modern Home.png');" loading="lazy">
+        <div class="project-overlay">Modern Home</div>
+      </div>
+
+      <div class="project-card" style="background-image: url('IMG/Urban Apartment.png');" loading="lazy">
+        <div class="project-overlay">Urban Apartment</div>
+      </div>
+
+      <div class="project-card" style="background-image: url('IMG/Luxe Mansion.png');" loading="lazy">
+        <div class="project-overlay">Luxe Mansion</div>
+      </div>
+
+      <div class="project-card" style="background-image: url('IMG/Vista Bungalow.png');" loading="lazy">
+        <div class="project-overlay">Vista Bungalow</div>
+      </div>
+    </div>
+  </section>
+
+<!------------------------------------------ Testimonials------------------------------------------>
+  <section class="testimonials section" id="testimonials">
+    <h2>What Clients Say About Us</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <img src="IMG/Jane.jpg" alt="Client Photo" class="client-img" loading="lazy">
+        <p>Otihome Designs transformed our outdated house into a modern sanctuary. From the first sketch to the final touches, their team listened, adapted, and delivered exactly what we envisioned—sometimes even better. We now enjoy a home that feels both functional and inspiring.</p>
+        <h4>Jane Mwikali</h4>
+        <span>Homeowner</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="IMG/Daniel.jpg" alt="Client Photo" class="client-img" loading="lazy">
+        <p>I’ve worked with many architectural firms, but Otihome stands out for their blend of creativity and efficiency. They delivered a multi-unit apartment project on time, with designs that were not only appealing to buyers but also cost-effective to construct. Their strategic thinking is top-tier.</p>
+        <h4>Daniel Mwirigi</h4>
+        <span>Real Estate Developer</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="IMG/Aisha.png" alt="Client Photo" class="client-img" loading="lazy">
+        <p>Collaborating with Otihome Designs was a refreshing experience. Their eye for structure and flow made integrating my interior concepts effortless. Every space we touched turned into a showcase of warmth, elegance, and personality. I can’t wait to work with them again</p>
+        <h4>Aisha Tanui</h4>
+        <span>Interior Stylist</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="IMG/Michael.jpg" alt="Client Photo" class="client-img" loading="lazy">
+        <p>Our students now have a beautiful, well-ventilated pool pavilion thanks to Otihome’s brilliance. Safety, sustainability, and aesthetics were all considered without compromise. Their team was sensitive to our budget and community needs, yet the results looked like no corners were cut.</p>
+        <h4>Michael Obuya</h4>
+        <span>School Director</span>
+      </div>
+
+      <div class="testimonial-card">
+        <img src="IMG/Lucia.jpg" alt="Client Photo" class="client-img" loading="lazy">
+        <p>The mansion Otihome designed for us is nothing short of spectacular. Every corner reflects thoughtful luxury—from vaulted ceilings to the hidden wine cellar. They mastered the art of balancing grandeur with comfort. I’m constantly getting compliments from guests.</p>
+        <h4>Lucia Rodriguez</h4>
+        <span>Luxury Home Owner</span>
+      </div>
+    </div>
+  </section>
+
+
+<!-- Call to Action Section -->
+  <section class="call-to-action-section section">
+    <div class="call-to-action-container">
+      <h2>Ready to Build Your Dream?</h2>
+      <p>Transform your vision into reality with our innovative architectural solutions. 
+        Let's create something extraordinary together.</p>
+
+      <!-- Feature Icons -->
+      <div class="call-to-action-features">
+        <div class="call-to-action-feature">
+          <div class="call-to-action-icon">
+            <i data-lucide="laptop"></i>
+          </div>
+          <span>Design</span>
+        </div>
+
+        <div class="call-to-action-feature">
+          <div class="call-to-action-icon">
+            <i data-lucide="building"></i>
+          </div>
+          <span>Build</span>
+        </div>
+
+        <div class="call-to-action-feature">
+          <div class="call-to-action-icon">
+            <i data-lucide="users"></i>
+          </div>
+          <span>Expertise</span>
+        </div>
+
+        <div class="call-to-action-feature">
+          <div class="call-to-action-icon">
+            <i data-lucide="layers"></i>
+          </div>
+          <span>Strength</span>
+        </div>
+      </div>
+
+      <!-- CTA Button -->
+      <div>
+        <a href="#" class="call-to-action-button">Let's Talk</a>
+      </div>
+    </div>
+  </section>
+
+
+<!--------------------------------------------Footer------------------------------------------------>
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-about">
+        <img src="IMG/Logo.png" alt="Otihome Logo" class="footer-logo" loading="lazy">
+        <p>Your trusted partner for innovative architectural designs that bring your dreams to life.</p>
+      </div>
+
+      <div class="footer-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>123 Architecture Ave,<br> Nairobi, Kenya</p>
+        <p>Email: info@otihome.com</p>
+        <p>Phone: +254 700 000000</p>
+
+        <div class="footer-socials">
+          <!-- Facebook -->
+          <a href="#" aria-label="Facebook" class="social-link" title="Facebook" target="_blank" rel="noopener noreferrer">
+            <img src="IMG/Facebook.png" alt="Facebook" width="24" height="24" loading="lazy">
+          </a>
+
+          <!-- Twitter (X) -->
+          <a href="#" aria-label="TikTok" class="social-link" title="TikTok" target="_blank" rel="noopener noreferrer">
+            <img src="IMG/X.png" alt="X" width="24" height="24" loading="lazy">
+          </a>
+
+          <!-- Tiktok -->
+          <a href="#" aria-label="Instagram" class="social-link" title="Instagram" target="_blank" rel="noopener noreferrer">
+            <img src="IMG/Tiktok.png" alt="Tiktok" width="24" height="24" loading="lazy">
+          </a>
+
+          <!-- Whatsapp -->
+          <a href="#" aria-label="LinkedIn" class="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <img src="IMG/Whatsapp.png" alt="Whatsapp" width="24" height="24" loading="lazy">
+          </a>
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Otihome Designs. All rights reserved.</p>
+    </div>
+  </footer>
+
+<!---------------------------------SCRIPTS----------------->
+  <script>
+    const sections = document.querySelectorAll('.section');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.15,
+    });
+
+    sections.forEach(section => {
+      observer.observe(section);
+    });
+
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+
+  <script>
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navLinks = document.querySelector('.nav-links');
+      const iconHamburger = document.querySelector('.icon-hamburger');
+      const iconClose = document.querySelector('.icon-close');
+
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+
+        if (navLinks.classList.contains('active')) {
+          iconHamburger.style.display = 'none';
+          iconClose.style.display = 'block';
+        } else {
+          iconHamburger.style.display = 'block';
+          iconClose.style.display = 'none';
+        }
+      });
+    </script>
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelectorAll('.carousel-slide');
+
+      function showNextSlide() {
+        slides[currentSlide].classList.remove('active');
+        currentSlide = (currentSlide + 1) % slides.length;
+        slides[currentSlide].classList.add('active');
+      }
+
+      setInterval(showNextSlide, 4000); // Change every 4 seconds
+    </script>
+</body>
+</html>
