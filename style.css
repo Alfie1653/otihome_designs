@@ -1055,6 +1055,7 @@ header::after {
     border-radius: 8px 8px 8px 8px;
     z-index: 9999;
     gap: 16px;
+    text-align: left;
   }
   .nav-links li {
     margin-bottom: 0;
@@ -1067,7 +1068,7 @@ header::after {
     bottom: 0;
   }
   .nav-links.active {
-    width: 35vw;
+    width: 80vw;
     opacity: 1;
     animation: slideFadeInRight 0.4s ease forwards;
   }
@@ -1141,7 +1142,7 @@ header::after {
     margin-bottom: 30px;
   }
   .footer-logo {
-    max-height: 100px;
+    max-height: 80px;
     margin-bottom: 0;
   }
   .footer-about {
